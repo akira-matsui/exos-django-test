@@ -1,4 +1,7 @@
 # EXOS Django Test
+I completed all tasks specificed in PDF file.
+I finished optional task exporting users to csv file as well.
+I wrote instruction to help you run project.
 
 ## 1. Prerequirements
   Python 3.4 or later, Pip, Virtualenv is required to run this project.
