@@ -1,0 +1,25 @@
+{% load bizzfuzz %}
+{% load validate_user %}
+<h1>User Detail</h1>
+<table border="1" cellspacing="0">
+  <tr>
+    <td>Username</td>
+    <td>{{user.username}}</td>
+  </tr>
+  <tr>
+    <td>Birthday</td>
+    <td>{{user.birthday}}</td>
+  </tr>
+  <tr>
+    <td>Eligible</td>
+    <td>{% validate_user user.birthday %}</td>
+  </tr>
+  <tr>
+    <td>Random Number</td>
+    <td>{{user.random_number}}</td>
+  </tr>
+  <tr>
+    <td>BizzFuzz</td>
+    <td>{% bizzfuzz user.random_number %}</td>
+  </tr>
+</table>
