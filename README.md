@@ -14,3 +14,9 @@
    - Make migration file using command `python manage.py makemigrations`
    - Now run `python manage.py migrate` to create table in SQLite database.
    - Run server using command `python manage.py runserver`
+      `Performing system checks...`
+
+      `System check identified no issues (0 silenced).`
+      `Django version 1.10.5, using settings 'exostest.settings'`
+      `Starting development server at http://127.0.0.1:8000/`
+      `Quit the server with CONTROL-C.`
