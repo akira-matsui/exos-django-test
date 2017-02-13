@@ -20,6 +20,7 @@
       `Django version 1.10.5, using settings 'exostest.settings'`  
       `Starting development server at http://127.0.0.1:8000/`  
       `Quit the server with CONTROL-C.`  
+
 ## 3. Screenshots
   ![Alt text](/screenshots/user-list.png?raw=true "User list")  
   ![Alt text](/screenshots/user-create.png?raw=true "Create User")  
